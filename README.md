@@ -31,7 +31,7 @@ Unleash your inner strategist with this **AI-enhanced Tic-Tac-Toe game** that re
 ### **Play in 3 Simple Steps:**  
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/TicTacToeGame.git
+   git clone https://github.com/rejoy12/TicTacToeGame.git
    ```
 2. **Compile the Code**:  
    Open the `TicTacToe.java` file in your favorite Java IDE (e.g., IntelliJ, Eclipse) or compile via terminal:  
