@@ -17,7 +17,7 @@ public class TicTacToe extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
 
-        // Create grid panel
+       
         JPanel gridPanel = new JPanel(new GridLayout(3, 3));
         for (int i = 0; i < buttons.length; i++) {
             buttons[i] = new JButton("");
@@ -28,7 +28,7 @@ public class TicTacToe extends JFrame {
         }
         add(gridPanel, BorderLayout.CENTER);
 
-        // Create status panel
+        
         JPanel statusPanel = new JPanel(new GridLayout(2, 1));
         statusLabel.setFont(new Font("Arial", Font.BOLD, 16));
         themeLabel.setFont(new Font("Arial", Font.ITALIC, 12));
@@ -198,7 +198,7 @@ public class TicTacToe extends JFrame {
             this.index = index;
         }
 
-        @Override
+        
         public void actionPerformed(ActionEvent e) {
             if (gameActive && buttons[index].getText().equals("")) {
                 buttons[index].setText(currentPlayer);
